@@ -7,3 +7,10 @@
 
 # Image of RabbitMQ Running
 ![Pic](image.png)
+
+# Image of Console When Subscriber and Publisher Are Running Simultaneously With RabbitMQ
+![Pic Publisher](image-2.png)
+![Pic Subscriber](image-1.png)
+Explanation:
+    - Gambar tersebut merupakan screenshot dari cargo run untuk package subscriber dan publisher, di mana saat kita menjalankan package subscriber dan publisher, publisher akan mengirimkan data yang di hard-code ke message queue. Kemudian, subscriber akan mendapat data di message queue tersebut dan ditampilkan ke console.
+
