@@ -14,3 +14,7 @@
 Explanation:
     - Gambar tersebut merupakan screenshot dari cargo run untuk package subscriber dan publisher, di mana saat kita menjalankan package subscriber dan publisher, publisher akan mengirimkan data yang di hard-code ke message queue. Kemudian, subscriber akan mendapat data di message queue tersebut dan ditampilkan ke console.
 
+# Image of Spiking Chart
+![Spike](image-3.png)
+Explanation: 
+    - Spiking yang terjadi pada chart terjadi karena adanya peningkatan queue message dalam interval waktu tertentu. Jika kita melihat ke bagaimana program bekerja, publisher akan mengirimkan data ke message queue. Jika publisher dijalankan selama beberapa kali, maka message yang dimasukkan ke message queue akan menjadi semakin banyak sehingga terjadi lonjakan untuk message yang masuk ke queue di RabbitMQ
